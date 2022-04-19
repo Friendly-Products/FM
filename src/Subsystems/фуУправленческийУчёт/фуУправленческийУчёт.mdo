@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd1fdcbb-3496-4b89-b3a9-dc095d815e5a">
+  <name>фуУправленческийУчёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий учёт</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Contabilidad de gestión (Fmedia)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаУправленческийУчёт</picture>
+  </picture>
+  <content>Catalog.фуКонтрагенты</content>
+  <content>CommonPicture.ПодсистемаУправленческийУчёт</content>
+  <content>Catalog.фуРасчетныеСчета</content>
+  <content>Catalog.фуНоменклатура</content>
+  <content>Catalog.фуСтатьиЗатрат</content>
+  <content>Catalog.фуОрганизации</content>
+  <content>Document.фуОперация</content>
+  <content>Document.фуВводНачальныхОстатков</content>
+  <content>Catalog.Валюты</content>
+  <content>CommonCommand.фуДополнительныеОбработки_УправленческийУчет</content>
+  <content>CommonCommand.фуДополнительныеОтчеты_УправленческийУчет</content>
+  <content>Catalog.фуСтруктураОтчётаДДС</content>
+  <content>Catalog.фуСтруктураОтчётаОПУ</content>
+  <content>Document.фуУправленческаяОперация</content>
+</mdclass:Subsystem>

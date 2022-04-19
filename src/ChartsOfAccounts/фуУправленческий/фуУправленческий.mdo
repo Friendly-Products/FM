@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0e435b0-f3d9-42ac-99da-01cd1014cbc5">
+  <producedTypes>
+    <objectType typeId="048b8c31-db2b-45e2-b327-7bdcd580a7c9" valueTypeId="ae6c76b6-78fb-4046-9a12-c556cbfc578e"/>
+    <refType typeId="e36b23d1-1423-4667-9bf1-e2e25162be13" valueTypeId="0cd8f84c-bd6f-4db5-9f30-81376d86fe9e"/>
+    <selectionType typeId="5ba34f3a-1722-478d-9fa3-4678dfeec3ff" valueTypeId="f4224ce5-d82f-41ba-aa56-4ed0f8d90347"/>
+    <listType typeId="ce3d56a8-0de8-4111-80aa-e043d72d0230" valueTypeId="96bdab77-de8b-45c6-9774-3279a818ea1b"/>
+    <managerType typeId="6fc69f97-26fd-4538-ab88-9d7d64ef68ba" valueTypeId="48535548-0618-417a-b95c-e247811fd6dd"/>
+    <extDimensionTypes typeId="1bd7dd6d-17ae-4d88-83da-8b2f8d2d45a7" valueTypeId="38224ff4-7211-43fe-ab8a-5d17551b2499"/>
+    <extDimensionTypesRow typeId="6b414041-02c1-4e26-9694-7177cb12b503" valueTypeId="3a84b481-86bd-467d-bc5c-9bb633d49b57"/>
+  </producedTypes>
+  <name>фуУправленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>План счетов управленческого учёта</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Plan de cuentas de contabilidad de gestión</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.фуУправленческий.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.фуУправленческий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>План счетов управленческого учёта</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>План счетов управленческого учёта</value>
+  </extendedObjectPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="e7526f15-d9ba-4663-a50f-5da9ece55f90">
+      <name>Вспомогательный</name>
+      <description>Вспомогательный</description>
+      <code>00</code>
+      <accountType>ActivePassive</accountType>
+    </items>
+    <items id="fd6e29b1-86e1-4013-9ca5-7ea780f3f07c">
+      <name>ОСиНМА</name>
+      <description>ОС и НМА</description>
+      <code>01</code>
+    </items>
+    <items id="5528b1b3-de8e-4f9b-b9f1-e41f559a8350">
+      <name>АмортизацияОСиНМА</name>
+      <description>Амортизация ОС и НМА</description>
+      <code>02</code>
+      <accountType>Passive</accountType>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>

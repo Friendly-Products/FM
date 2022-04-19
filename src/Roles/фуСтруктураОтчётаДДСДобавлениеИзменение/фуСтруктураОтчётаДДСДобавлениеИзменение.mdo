@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abd7b029-c94a-42a3-ba8b-52d94f055a45">
+  <name>фуСтруктураОтчётаДДСДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cтруктура отчёта ДДС (добавление / изменение)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2b15dd3-ba65-49b3-b1f8-9a04b1198f0e">
+  <name>фуСменаСтатусаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смена статуса документа</value>
+  </synonym>
+</mdclass:Role>

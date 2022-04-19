@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91a5ba4f-5787-46cb-a5ee-a723dfa771e5">
+  <producedTypes>
+    <objectType typeId="cfb11444-39a2-450c-9b69-ba04ecc6be69" valueTypeId="f64a6319-d49f-47f0-84e3-4226960e5123"/>
+    <managerType typeId="c9ae10c7-6fc8-4f02-8925-e3be62ce79fd" valueTypeId="75509f1d-24dd-4286-999e-a07074d729fd"/>
+  </producedTypes>
+  <name>фуРабочийСтолДляПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол для пользователей</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Escritorio para usuarios (Fmedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.фуРабочийСтолДляПользователей.Form.Форма</defaultForm>
+  <forms uuid="23df0a0b-3c92-4165-8e7d-5b681a64a8cb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73ba983b-da9c-4ddd-ac48-fca7aae4e55a">
+    <name>Форма_СобственникКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол для собсвенников компании</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8eec217-9a87-46a5-ba0d-3100d41e6a78">
+    <name>Форма_СотрудникФинансовойСлужбы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий стол для сотрудников финансовой службы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6b9c5b3c-0352-42dd-8816-17ad26936d2d">
+    <name>Команда_ОтчетДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет: ДДС</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Informe: Facturación por DDS (Fmedia)</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="9742d4b8-d279-4b3c-a5cb-7ba57a59623f">
+    <name>Команда_ОтчетОПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет: ОПУ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Informe: Estado de resultados (Fmedia)</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="f12c287f-946b-4bd1-bf9e-a3b6b0e97c01">
+    <name>Команда_ОтчетДебиторскаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет: Дебиторская задолженность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Informe: cuentas por Cobrar (Fmedia)</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="390d6168-9aae-408b-aaec-9e5a3531d0cd">
+    <name>Команда_ДокументыОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы: ОПЕРАЦИЯ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Documentos: OPERACIÓN</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="b6588fd0-d08f-4804-9d1e-29be3330c596">
+    <name>Команда_ОстаткиНаРасчетныхСчетах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет: Остатки на расчетных счетах</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Informe: cuentas por Cobrar (Fmedia)</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

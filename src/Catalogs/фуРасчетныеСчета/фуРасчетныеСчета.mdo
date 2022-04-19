@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97ff4d63-d355-4b49-90fb-af82d8da4ebf">
+  <producedTypes>
+    <objectType typeId="966fbfe6-f39d-4e0e-9b3b-82708d4d0f6f" valueTypeId="7aebff58-3e5e-4c79-ba2a-17e2c370c834"/>
+    <refType typeId="6929f68f-49a0-4d89-92e9-c07c12eaecba" valueTypeId="18a979d8-07af-4971-b04e-ce39e2b10970"/>
+    <selectionType typeId="d81f8b62-0211-4783-a0c6-90d9197ed78b" valueTypeId="21b4709f-456b-4f71-a44c-eac173323780"/>
+    <listType typeId="48d12915-669d-4809-b293-3b1185acc2dc" valueTypeId="9b05072c-ce9a-410a-b897-055bc8924876"/>
+    <managerType typeId="4fd6e9c3-34c8-4d8e-8e8d-352de133fe28" valueTypeId="a7ae74c0-f95b-4d9d-9192-d16422a9f130"/>
+  </producedTypes>
+  <name>фуРасчетныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Cuentas de liquidación (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуРасчетныеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуРасчетныеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.фуРасчетныеСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7c4afec5-3ce4-4455-b7a1-117f3ce87d8c">
+    <name>ВалютаСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта счета</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cuenta de dinero</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a47a994b-08fe-4a5b-ab8b-3f9c6e6b3704">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74e864c7-5fc5-4583-8389-f75fb459a0f2">
+    <name>НомерСчетаВПлатежнойСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета в платежной системе</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Número de cuenta en el sistema de pago</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9593038-5fb9-4521-a269-bf8dc7e19fef">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a06611d-18f8-4129-9a45-a6f17db670fb">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="29361290-f4b2-43c7-9dbb-cd2664e22012">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

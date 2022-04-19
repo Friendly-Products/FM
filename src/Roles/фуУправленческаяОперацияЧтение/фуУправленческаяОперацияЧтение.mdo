@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d17b5788-886e-4c60-9196-fd166c010ba1">
+  <name>фуУправленческаяОперацияЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческая операция чтение</value>
+  </synonym>
+</mdclass:Role>

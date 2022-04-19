@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76656844-255c-47df-b1c1-fbb1b6f105b6">
+  <producedTypes>
+    <objectType typeId="bde75494-e7f3-4106-8bf5-0c3ce3d4f4ad" valueTypeId="f07f5bec-368f-4527-a3c9-3083b6f5c007"/>
+    <refType typeId="72dfd0d5-c6f1-47a4-b6ee-cd5a5b19733f" valueTypeId="86478e12-3fb6-46dd-bbf7-055d7491303b"/>
+    <selectionType typeId="a0bfc10b-2d8d-4d49-b3a3-66713a9034d2" valueTypeId="fc67d8a9-7e55-4dcf-ac01-2bccc4e9ea5a"/>
+    <listType typeId="0e750ca3-958c-4bb5-abdb-c6862bd043ac" valueTypeId="0411c528-5683-4205-916f-8c3e7683fd09"/>
+    <managerType typeId="dbd5cc0d-c7c6-42e0-823d-45fab1ae3e97" valueTypeId="04f6252a-4e08-4cc7-b1a0-7c12febc845b"/>
+  </producedTypes>
+  <name>фуКонтрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Contrapartes (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуКонтрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуКонтрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.фуКонтрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2139973c-7fda-4b7f-bec0-7c4cb3c49a5b">
+    <name>СрокОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок оплаты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Fecha de pago</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="34361fa4-facc-4e5a-9ded-6c1ed52d6f5a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de114084-f319-4ecf-bea9-ec0eebb75924">
+  <name>фуКадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Contabilidad de personal (Fmedia)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КадровыйУчет48</picture>
+  </picture>
+  <content>Catalog.фуСотрудники</content>
+  <content>Catalog.фуОтделы</content>
+  <content>Catalog.фуДолжности</content>
+  <content>Document.фуПриемНаРаботу</content>
+  <content>c7e3448b-391c-4be6-83f9-12eb4e4ee88b</content>
+  <content>Document.фуУвольнениеСотрудника</content>
+  <content>Document.фуКадровоеИзменение</content>
+  <content>DocumentJournal.фуКадровыеДокументы</content>
+  <content>9f1b641d-68fe-47f4-9de4-d41bc1683391</content>
+  <content>Catalog.фуОрганизации</content>
+  <content>CommonCommand.фуДополнительныеОбработки_КадровыйУчет</content>
+  <content>CommonCommand.фуДополнительныеОтчеты_КадровыйУчет</content>
+  <content>c5cfa9c8-0fb3-4b07-9e77-9ff8b4da8f2b</content>
+  <content>Catalog.фуВидыДокументовФизическихЛиц</content>
+  <content>Catalog.фуПодразделенияВыдачиДокументов</content>
+  <content>Catalog.фуСхемыМотивации</content>
+  <content>Catalog.фуГруппы</content>
+  <content>Catalog.фуДепартамент</content>
+  <content>Catalog.фуХарактерРаботы</content>
+</mdclass:Subsystem>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bd48a10-b475-423d-b54a-b8a291fccd38">
+  <producedTypes>
+    <refType typeId="1d38421e-044f-47bc-8df9-f05dc9096cda" valueTypeId="fce4bdf5-5d3d-4902-92c5-d01dfa1312bf"/>
+    <listType typeId="8e7a1d7f-196c-4628-af75-cc376186c253" valueTypeId="f2038c88-9923-439d-bbc0-e842ad6ab872"/>
+    <managerType typeId="bd8fdb8e-0329-465d-8a9e-ab03b7154c65" valueTypeId="b654c7d3-2199-4eee-b8f8-dd6f13273db3"/>
+  </producedTypes>
+  <name>фуВидТрудоустройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид трудоустройства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a9b307d-55d8-4ab6-a23e-22267101bde5">
+    <name>Неофициально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неофициально</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1320d7e8-a445-4bbd-b8d0-16404d463828">
+    <name>ТрудовойДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовой договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d89e044e-8b2b-4263-a4c7-31420b7a0b20">
+    <name>ДоговорГПХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор ГПХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08d93bec-b239-4fcd-a22b-ddbc4bebc5ce">
+    <name>ДоговорСамозанятого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор самозанятого</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88155c28-615b-42f7-99b4-b32b74418a0b">
+    <name>ДоговорСИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с ИП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

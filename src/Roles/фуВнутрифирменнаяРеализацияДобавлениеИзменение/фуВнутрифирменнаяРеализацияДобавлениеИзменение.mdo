@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cd9b8ef-c4de-4fb3-91f5-4a7da1109ae5">
+  <name>фуВнутрифирменнаяРеализацияДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутрифирменная реализация (добавление/изменение)</value>
+  </synonym>
+</mdclass:Role>

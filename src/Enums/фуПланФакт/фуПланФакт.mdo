@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5cd6dc0-d576-4c3d-a6de-859e7b880f78">
+  <producedTypes>
+    <refType typeId="d406a4c5-94d1-44d8-af6b-1558f64bc439" valueTypeId="d406a88b-c392-41ef-bb8d-6f134b2b755c"/>
+    <listType typeId="bed92215-67da-4589-b4d5-904ca1afb094" valueTypeId="bece0460-ce67-41d0-952a-b8b904fc9ce9"/>
+    <managerType typeId="affefcde-2919-45fd-be08-bf74342f00e1" valueTypeId="d7f332da-dbe7-43f8-b113-8015d2b20985"/>
+  </producedTypes>
+  <name>фуПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>План/Факт</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Plan / Hecho (FMedia)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dfc24a8c-7e20-4971-95ce-d475d654b707">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Plan</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15f50ce3-6779-4121-9dfc-58858a12f16b">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Hecho</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

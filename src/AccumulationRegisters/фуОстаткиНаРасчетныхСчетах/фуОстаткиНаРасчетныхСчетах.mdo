@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6129c91-12b0-4e2e-8ac8-57467e16504d">
+  <producedTypes>
+    <selectionType typeId="e62158f7-9477-40dc-800b-dcf9df9ef891" valueTypeId="db22a3cc-bc02-444b-90e4-d6385fd3a4c8"/>
+    <listType typeId="cc533c81-647e-4ea1-9cc2-b879a0771015" valueTypeId="52c77e3e-0ba9-4b95-95c7-1824a627141d"/>
+    <managerType typeId="d42c4ce2-9068-45c0-8031-34d7c0edc10e" valueTypeId="7f5a4697-d8e7-4009-9393-e858f4103189"/>
+    <recordSetType typeId="449aa41f-d940-4140-85af-e1058173955d" valueTypeId="8860383c-29de-4d76-b0d8-2b58c39e9d1f"/>
+    <recordKeyType typeId="75920c43-f13a-4bbc-b929-3cbb232f6e82" valueTypeId="c271484c-40e3-4be8-bdbc-a5f9bfb01652"/>
+    <recordType typeId="fa848b75-1343-47a9-bfb1-c4d4583be7c1" valueTypeId="afe14a40-8adb-49e6-a49f-185abd5912a3"/>
+  </producedTypes>
+  <name>фуОстаткиНаРасчетныхСчетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки на расчетных счетах</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Saldos de cuentas corrientes (Fmedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e9b033a6-3d79-42c0-a8ba-3e7e2d6e7fbb">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Monto</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="287dab2e-e028-4348-86c0-622b9a5e46a7">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Base</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="ece395d5-dbaa-4185-8cf6-bb64df019c1d">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cuenta de cheques</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуРасчетныеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce15556-0fca-4f11-b5a7-30ba34f51508">
+  <name>фуСтруктураОтчётаPLДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cтруктура отчёта PL (добавление / изменение)</value>
+  </synonym>
+</mdclass:Role>

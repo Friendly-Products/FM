@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="068d9120-b8b5-4679-ba46-1a887d2ee428">
+  <producedTypes>
+    <objectType typeId="881582a0-d1c6-43ac-81e5-bf439368dec9" valueTypeId="8b75ca51-d10c-4eef-96e5-7baa67ef4379"/>
+    <refType typeId="686deb0a-0d1c-4266-aa19-5a1316797ebf" valueTypeId="96dae516-f608-49e6-b4ec-756877607501"/>
+    <selectionType typeId="47eb5bd3-ef4e-40e1-bcb6-088cd4132c40" valueTypeId="d6a0e310-5ab8-48e4-b590-9b97f31292c7"/>
+    <listType typeId="81697431-1204-4902-bfec-f58c9b106882" valueTypeId="f4876986-8c45-4763-86a0-67e83d412d27"/>
+    <managerType typeId="04f9e34a-c5cd-46f2-aca5-35ba2a65b4e5" valueTypeId="a7139708-6b81-4c24-a130-e31f193acbce"/>
+  </producedTypes>
+  <name>фуСтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Partidas de coste (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуСтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуСтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1f749866-a598-49a8-9695-11fd06193fdc">
+      <name>ВнутрифирменныеРасчеты</name>
+      <description>Внутрифирменные расчеты</description>
+      <code xsi:type="core:StringValue">
+        <value>005</value>
+      </code>
+    </items>
+    <items id="9f49e6b8-6210-4867-8034-0ad3b2a1cedf">
+      <name>КомиссииЗаИсходящиеПлатежи</name>
+      <description>Комиссии за исходящие платежи</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+    </items>
+    <items id="2f1974bd-1ce6-4e1b-832e-8b95419e3c85">
+      <name>КомиссииПоВнутрифирменнымРасчетам</name>
+      <description>Комиссии по внутрифирменным расчетам</description>
+      <code xsi:type="core:StringValue">
+        <value>006</value>
+      </code>
+    </items>
+    <items id="485195c1-929a-4705-824d-22114afb0973">
+      <name>КомиссииПриВыплатеЗарплаты</name>
+      <description>Комиссии при выплате зарплаты</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
+    <items id="d689f3ae-0055-4905-a122-7315c8f8f16a">
+      <name>КомиссииФинансовыхПартнеров</name>
+      <description>Комиссии финансовых партнеров</description>
+      <code xsi:type="core:StringValue">
+        <value>004</value>
+      </code>
+    </items>
+    <items id="cf82ac04-1dbc-45f9-96c1-b2dc9295e36a">
+      <name>КомиссияПоУмолчанию</name>
+      <description>На комиссию (по-умолчанию)</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+    <items id="f4d46200-3809-4991-9b7c-51d9f1616adc">
+      <name>ОплатаТрудаПерсонала</name>
+      <description>Оплата труда персонала</description>
+      <code xsi:type="core:StringValue">
+        <value>007</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.фуСтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.фуСтатьиЗатрат.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.фуСтатьиЗатрат.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="35ce4e72-4a65-4dfb-9c97-0c11f5aab99f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09eec7f3-b70f-47d2-aeba-0ee26d51bae3">
+    <name>ПереносЗатратНаКоррСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос затрат на корр. счет</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Transferencia de costos a la cuenta de ajuste</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f863d458-816a-4d16-a722-3e98258559eb">
+    <name>СтатьяЗатратДляКурсовыхРазниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат для курсовых разниц</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Partida de coste para diferencias de tipo de cambio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f147e600-3cfb-4d99-b39e-e77b26d12deb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd899e34-df86-4401-ac24-f9a546049637">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="011cb194-618e-4372-a3bd-5051a6c92ff3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

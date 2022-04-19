@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb229778-de22-4c18-ac44-ed9045d65298">
+  <producedTypes>
+    <objectType typeId="da3adfae-b0e7-421f-af1e-6bab2c14850f" valueTypeId="4adfde01-8d36-494c-ada3-eb8f66b39a22"/>
+    <managerType typeId="5449938b-0cfd-4104-9242-11c3ea57516e" valueTypeId="3fc0f111-554e-475d-bdfd-378b1b600c22"/>
+  </producedTypes>
+  <name>фуГрупповоеКопированиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое копирование документов (РоллерАдс)</value>
+  </synonym>
+  <comment>// +++ Чесноков М.С. 2022-04-18 issue0001</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.фуГрупповоеКопированиеДокументов.Form.Форма</defaultForm>
+  <forms uuid="4c95d357-4586-4bbc-94c5-80575253c93d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e3f9739-c066-4815-a6a4-e46a768eda8e">
+  <producedTypes>
+    <refType typeId="ab203f72-cbf1-4e37-ac98-e1958b4fc2cd" valueTypeId="4d4564ca-6974-4de2-843d-a244f0e9f218"/>
+    <listType typeId="fcc4778a-0af8-4d9b-b54f-d37be036f2ea" valueTypeId="0f73b2ab-0a12-49dd-809c-f135773f00a3"/>
+    <managerType typeId="e310aff3-f18f-49e2-b3df-71ebe51bfec0" valueTypeId="5810e034-d963-49f9-b4b9-06fe25aba6af"/>
+  </producedTypes>
+  <name>фуБанкиФайловВыписки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки файлов выписки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Bancos de archivos de estados de cuenta (FMedia)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08a714ce-59f4-4860-b98c-5e307f272c83">
+    <name>Капиталист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Капиталист</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Capitalista</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="568f6a8c-a5c1-4882-bf0e-5a0f8ef137d5">
+    <name>СИМБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>СИМ банк</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>SIM Bank</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb30f50d-be34-4751-a657-dc99d67947e5">
+    <name>Тинькофф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тинькофф</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tinkoff</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13b101dd-9db0-4123-b0d3-5b364d9f73ae">
+    <name>ВебМани</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб мани</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Web money</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

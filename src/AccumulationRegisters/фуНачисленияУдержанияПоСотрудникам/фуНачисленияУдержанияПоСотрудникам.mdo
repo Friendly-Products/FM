@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="687eb02f-c530-4b4d-b946-0ab961e66ff4">
+  <producedTypes>
+    <selectionType typeId="9a0d601b-6e33-4481-9f33-3f676fd97fa0" valueTypeId="267e543a-163d-46e7-a095-afd154a56bb4"/>
+    <listType typeId="f9c3f473-e2fe-4f56-ab10-aafd0f4ac8c2" valueTypeId="10b4e6a5-74ad-4ea6-9f8a-2825423b9a6f"/>
+    <managerType typeId="1cf30c5e-68ac-4b17-b991-dd22f63d2a51" valueTypeId="d5945e41-f815-4ce2-ae66-f5eaeb98aed3"/>
+    <recordSetType typeId="55779dea-f86f-4a83-ab85-ab3f5b51b55c" valueTypeId="633faf89-2e3c-43af-ba6a-caef7f9c2c28"/>
+    <recordKeyType typeId="50443efe-e994-4c1a-b127-055d3f4d7883" valueTypeId="89b7e5f9-e5bc-4b6a-8982-1a224beeed0d"/>
+    <recordType typeId="370451ee-e597-4f20-b4ca-837bc77a99e2" valueTypeId="3da74000-e06d-4851-90d6-a08e7d3ed9b4"/>
+  </producedTypes>
+  <name>фуНачисленияУдержанияПоСотрудникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления и удержание по сотрудникам</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Cargos y retenciones por empleados (Fmedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4ad3e0c6-d892-49e9-bc6b-7e164ade4fba">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Monto</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b8096986-db54-4237-9c2b-062585e34cf9">
+    <name>ЧасыФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="8868d861-4734-4538-bf74-5ba92021017d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Comentario</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="26145ef8-b6c6-4bf3-bede-b1110f744d3e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Empleado</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c661f030-c59e-41c7-bc10-29eea0c0434e">
+    <name>ВидНачисленияУдержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления удержания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tipo de acumulación de retenciones</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуВидыНачислений</types>
+      <types>CatalogRef.фуВидыУдержаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b3342a83-9ad9-46dd-a652-19701862e048">
+    <name>ВидЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид зарплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.фуВидЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6151720c-8980-4f72-a70b-85770d2da0e8">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Moneda</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

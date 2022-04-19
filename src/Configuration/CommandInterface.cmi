@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.фуУправленческийУчёт</subsystems>
+    <subsystems>Subsystem.фуРасчетСПерсоналом</subsystems>
+    <subsystems>b212c8c6-0512-4c53-af8f-e581ee6ee109</subsystems>
+    <subsystems>Subsystem.фуКадровыйУчет</subsystems>
+    <subsystems>d0ab6008-e6ef-4f85-bd95-0221bb6ced50</subsystems>
+    <subsystems>Subsystem.Администрирование</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

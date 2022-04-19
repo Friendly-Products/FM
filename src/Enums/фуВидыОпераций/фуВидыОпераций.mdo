@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95bf8a32-8aaa-491c-8d7d-c63e04ec04a2">
+  <producedTypes>
+    <refType typeId="bb8ecf9e-fb53-47fc-832b-b23d740392dc" valueTypeId="c9996c0c-debc-4c7d-b3da-ae7a0aed0c5f"/>
+    <listType typeId="40daaa52-fbcb-4503-8b21-028c94d1919f" valueTypeId="31aeaf95-8dbd-43a3-9b38-eaa845a3a245"/>
+    <managerType typeId="a1aa4e33-d22f-49cd-8149-50a6c316641f" valueTypeId="29816fe1-a51a-4377-9b4c-f7d51a2b48c8"/>
+  </producedTypes>
+  <name>фуВидыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Tipos de operaciones (FMedia)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4e43dd3-b1b1-435f-b9fb-cc9a5525b484">
+    <name>РасчетыСПокупателями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с покупателями</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Liquidación con los compradores</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c51e943-561d-4b47-a526-9e478105e70a">
+    <name>РасчетыСПоставщиками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты с поставщиками</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Acuerdos con proveedores</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce2db27e-b7e7-4fa0-b5e2-1760cc991a62">
+    <name>ВнутрифирменныеРасчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутрифирменные расчеты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cálculos intraempresariales</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

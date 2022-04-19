@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cc1d641-f2bc-4951-a379-5704a30d2a1f">
+  <producedTypes>
+    <objectType typeId="db7b59c1-f7da-4df4-baee-4a6228ac7b6f" valueTypeId="efc63cf4-7471-4957-9f21-8e27113f02c3"/>
+    <refType typeId="0d133841-0527-45a6-a339-345a9c8a64b2" valueTypeId="f45dc642-7779-4b48-af7e-e33e6992edd8"/>
+    <selectionType typeId="774f8f11-0c57-4705-8c94-81d6270f6c39" valueTypeId="b2dbf834-4028-437a-bfcb-ab229b78b589"/>
+    <listType typeId="098dd1af-4f99-47c8-9415-63ebf23890f2" valueTypeId="5e10f3ce-aacc-430a-9815-38541495943e"/>
+    <managerType typeId="71801e8e-7e51-4c22-adb4-df3568687931" valueTypeId="f6b3b100-1362-4872-8fab-144c6e37637b"/>
+  </producedTypes>
+  <name>фуСпособыВыплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы выплаты</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Métodos de pago (FMmedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуСпособыВыплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуСпособыВыплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.фуСотрудники</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.фуСпособыВыплаты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.фуСпособыВыплаты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5402ba30-3db3-4550-ae74-1e11e3e44323">
+    <name>ВидВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид выплаты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tipo de pago</value>
+    </synonym>
+    <type>
+      <types>EnumRef.фуВидыВыплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f316bba0-e0c8-4050-a483-8f7a587105f2">
+    <name>ТипВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип выплаты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tipo de pago II</value>
+    </synonym>
+    <type>
+      <types>EnumRef.фуТипыВыплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1968fc4c-86f3-4629-94ee-380f4aff336b">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты/кошелька</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Número de tarjeta / billetera</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ec64b8b-4510-44a3-9cb1-3d8d112cadf7">
+    <name>ИмяНаКарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя на карте</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El nombre en el mapa</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45457067-1e59-4162-b3b4-87559e2ed573">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Banca</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуБанки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d739f16b-1061-46f5-9394-b334e3afd13a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Comentario</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="834771b9-4326-4fa0-a023-02b15af04530">
+    <name>ИБАН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИБАН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d64ea589-5311-4313-9148-f6360d53fbec">
+    <name>СВИФТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>СВИФТ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b32bd4e3-9356-440a-9dcc-6f98e698274e">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fef63da-e412-44bc-ae27-27896a6cb88c">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1b6c0a97-8ff7-41cb-9ac4-cd3ed8e54181">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b772e495-71c2-4406-b958-466bb58a8527">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

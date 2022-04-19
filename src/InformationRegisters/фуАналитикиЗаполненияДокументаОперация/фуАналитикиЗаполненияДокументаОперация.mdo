@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5bc7375-2f02-4597-8c69-28cabd841521">
+  <producedTypes>
+    <selectionType typeId="6bccbca7-c8dc-4226-8a0f-2d06bad43e61" valueTypeId="a613bd2d-6bac-400f-9319-33b531104303"/>
+    <listType typeId="1d250a47-df82-464d-a355-bda2b9705eb1" valueTypeId="ca1e5474-cf66-485f-b449-b84daad194a0"/>
+    <managerType typeId="54db8180-a187-48f7-b40b-78637d05d12d" valueTypeId="4366120e-6bbd-42ff-a004-0d9a96840f51"/>
+    <recordSetType typeId="ddd260f4-e03f-4a0a-ac41-414c300fe874" valueTypeId="51b1a6bb-fd39-4dc1-be78-5bef4bcca93b"/>
+    <recordKeyType typeId="92612dc8-f108-49f6-ba48-dab85b0e45f7" valueTypeId="b518b1db-cbcd-41f3-ba78-bdf5d03c81d1"/>
+    <recordType typeId="eab27603-ab7c-4380-94fb-86032699db33" valueTypeId="24b6febc-0129-4a5b-9aa6-aedb46a4fcb4"/>
+    <recordManagerType typeId="79975c29-7492-4334-8ac2-d0841d3809c6" valueTypeId="9b3494a8-d800-4351-b264-2c4e796fef24"/>
+  </producedTypes>
+  <name>фуАналитикиЗаполненияДокументаОперация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитики заполнения документа операция</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Analistas que completan una operación de documento (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.фуАналитикиЗаполненияДокументаОперация.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37f8df53-4b28-4fec-9955-75869f36e527">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Costo del artículo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c62a371-6568-4817-a423-aa2d65d9a047">
+    <name>СтатьяЗатратНаКомиссию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат на комиссию</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Partida de gastos de Comisión</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f68e2e4-ceeb-4806-8e68-d41b1923131c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Contraparte</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуКонтрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7b6d1a16-831c-45ca-86bb-e0677f2887ba">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Subdivisión</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуОтделы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e9fc908c-2052-45f3-90ab-2c3a743c9b39">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cuenta de cheques</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуРасчетныеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85153c99-4056-452a-a510-a57b1157ffbb">
+    <name>СтрокаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка поиска</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Barra de búsqueda</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f98d62c7-79c3-4bed-a69f-c3502d99efc3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

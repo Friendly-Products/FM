@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1ffd24b-513a-4d96-b09a-7b7588d85aaf">
+  <name>фуСлужебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <comment>Разработка. Для отборов по подсистемам.</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>фуФинансовыйУчет</subsystems>
+  <subsystems>фуКадровыйУчет</subsystems>
+  <subsystems>фуНачислениеЗарплаты</subsystems>
+</mdclass:Subsystem>

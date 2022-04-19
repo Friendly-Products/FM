@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38138456-1be3-4e46-9d87-83cad3a7c5e7">
+  <producedTypes>
+    <objectType typeId="ec4d237e-6f03-4e69-83fd-8a8869f2e186" valueTypeId="4913840d-70fa-4214-8f25-bbd5cff474c8"/>
+    <refType typeId="567e4624-935b-4c9e-9f15-b2fe337c50e7" valueTypeId="390fc52d-6c68-46be-9f64-ad21231de622"/>
+    <selectionType typeId="273a39e2-e5b0-4321-868b-0da116326258" valueTypeId="6bd6e196-9f80-44e6-9f14-5ef96a271206"/>
+    <listType typeId="6e294d2b-e4d1-4936-9bda-0962317b96dc" valueTypeId="54c4ae39-bbb8-4164-bdd6-c0edd3d6e13e"/>
+    <managerType typeId="48d37ac3-c374-4f32-8afb-6cdb1422d041" valueTypeId="dc267fc0-ce80-4f82-89ca-ea3507a2e5c6"/>
+  </producedTypes>
+  <name>фуДолжности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Cargos (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуДолжности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуДолжности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="828b9a78-5275-47cf-930d-e7976120702c">
+      <name>КатегорийныйМенеджер</name>
+      <description>Категорийный менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="159818b6-e784-4fbf-9597-8d9329c2670d">
+      <name>Оператор</name>
+      <description>Оператор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="5b06c752-8e61-46d7-bfea-551f0f233b61">
+      <name>ОтделМониторинга</name>
+      <description>Отдел мониторинга</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="04c0e8e6-2ce9-476b-9642-a303962eb300">
+      <name>СтажерВторойМесяц</name>
+      <description>Стажер второй месяц</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="19f6f0cc-e3db-4c93-922e-ef39cc3f7172">
+      <name>СтажерПервыйМесяц</name>
+      <description>Стажер первый месяц</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="bce4f4aa-7f2d-41b9-bb5b-ef541b82bb9b">
+      <name>СтаршийОператор</name>
+      <description>Старший оператор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="6e9c25d0-d71e-414c-898c-41b2ae6dbe4b">
+      <name>Супервайзер</name>
+      <description>Супервайзер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

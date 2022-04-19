@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b414518-2cbe-42c8-9a4e-c59febc289a2">
+  <producedTypes>
+    <selectionType typeId="50be233a-4d68-419a-ba94-5b11f59573eb" valueTypeId="2c63eaf2-d96e-47cc-8c9c-5db69b900d46"/>
+    <listType typeId="b8cec845-c021-4194-b5c5-81abfa8befd0" valueTypeId="ec5c4624-0790-4f50-bed6-a80434e21a4a"/>
+    <managerType typeId="b60f72e6-625a-4309-9657-788c8a331fdc" valueTypeId="8616b536-9484-45f3-bbc7-858994b45da5"/>
+    <recordSetType typeId="951ea673-0be4-4723-941c-19e583866f14" valueTypeId="3a1290cf-f550-4e4c-9215-d33b58b90cfe"/>
+    <recordKeyType typeId="33495d0e-693e-48e8-9f02-b5a3cccb828e" valueTypeId="6ba6fcc9-a356-4633-b51d-17b16ed92b81"/>
+    <recordType typeId="03886a4b-0b33-45cc-a048-f3a23a52d2dd" valueTypeId="7fe42cb7-c840-4884-a3a6-737cbb1ed4ce"/>
+    <recordManagerType typeId="a68244f4-5dbe-44b1-9102-bf2a0b825c9a" valueTypeId="11b88cac-650b-4d85-a235-3c2ea79e6b10"/>
+  </producedTypes>
+  <name>фуНастрокиОтчетовДляСобсвенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настроки отчетов для собсвенников</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Configuración de informes para propietarios</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.фуНастрокиОтчетовДляСобсвенников.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e5978c61-9673-46a7-ae8d-cff0aee1aa39">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Fecha de Inicio</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66ef4ba6-88de-4823-a4fe-936cef32ed42">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Fecha de finalización</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9baba9ee-3371-4560-93ad-8931b89e3c63">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

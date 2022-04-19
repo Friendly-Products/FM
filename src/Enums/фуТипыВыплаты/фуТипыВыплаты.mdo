@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33705223-6a99-4c7e-a954-721a6ce19936">
+  <producedTypes>
+    <refType typeId="1488e3d5-438a-4e81-a6f3-e27cb064b719" valueTypeId="5d3ecc8f-836f-4cae-87b7-1e39ccaa0643"/>
+    <listType typeId="fbb11e9a-2f50-4af3-a32c-1223671ad487" valueTypeId="7524f590-46c1-45cd-b508-c513d141b6e9"/>
+    <managerType typeId="373c2898-f8df-4dae-b92b-c52211b679bb" valueTypeId="4ced49bc-6552-44c0-9d0e-2e1768045ec2"/>
+  </producedTypes>
+  <name>фуТипыВыплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выплаты</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Tipos de pago (FMedia)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bef8abbe-1cbe-4f26-9093-e0a49acd8782">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tarjeta bancaria</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc81664c-3491-41b3-b18e-025bb0b12518">
+    <name>Наличными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличными</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Pago al contado</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8590107b-c8db-4d99-9771-653b88c5322d">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cuenta bancaria</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

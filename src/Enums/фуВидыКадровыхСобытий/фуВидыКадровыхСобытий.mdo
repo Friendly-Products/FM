@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="329c0d0d-8921-4436-8f89-f165b320a1c6">
+  <producedTypes>
+    <refType typeId="6610348c-5567-4765-bdd0-09ba32e9287e" valueTypeId="ed6d9eb4-c919-42e1-91b8-0d1736c265f0"/>
+    <listType typeId="ea5f0f27-53c1-4912-beeb-2c75c061fd37" valueTypeId="dd02a94d-47d6-4755-ae54-23770b737af3"/>
+    <managerType typeId="81af7206-27bc-4e5d-888d-7f008090d358" valueTypeId="57dcab86-d617-463e-b302-9fc72e73c44c"/>
+  </producedTypes>
+  <name>фуВидыКадровыхСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кадровых событий</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Tipos de eventos de personal</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b32241b1-68a0-45c3-ae81-d034f3f23928">
+    <name>ПриемНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на работу</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Contratación</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="409c9e65-658c-4550-998c-d65e62a2350b">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Formulario de documento</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd0389ec-27d5-4830-a7e2-46cf0ad906e1">
+    <name>КадровоеИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровое изменение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cambio de personal</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

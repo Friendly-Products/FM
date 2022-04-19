@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5458e978-6635-4b15-b08d-d3249ff9989b">
+  <name>фуРасчетСПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет с персоналом</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Cálculo con personal (Fmedia)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Зарплата48</picture>
+  </picture>
+  <content>Catalog.фуСотрудники</content>
+  <content>Catalog.фуВидыУдержаний</content>
+  <content>Catalog.фуВидыНачислений</content>
+  <content>Catalog.фуСпособыВыплаты</content>
+  <content>Catalog.фуСхемыМотивации</content>
+  <content>Document.фуНачислениеЗарплаты</content>
+  <content>Document.фуВыплатаЗарплаты</content>
+  <content>CommonPicture.Зарплата48</content>
+  <content>Catalog.фуБанки</content>
+  <content>Catalog.фуОрганизации</content>
+  <content>CommonCommand.фуДополнительныеОбработки_РасчетСПерсоналом</content>
+  <content>CommonCommand.фуДополнительныеОтчеты_РасчетСПерсоналом</content>
+</mdclass:Subsystem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14877e71-f817-460a-9492-6d3a775d5065">
+  <name>фуСотрудникСлужбыПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудник службы персонала</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Oficial de servicios de personal (FMedia)</value>
+  </synonym>
+</mdclass:Role>

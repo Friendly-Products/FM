@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f906466f-0298-4a1d-928d-6b72d025520d">
+  <name>фуОтчетДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет: ДДС</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

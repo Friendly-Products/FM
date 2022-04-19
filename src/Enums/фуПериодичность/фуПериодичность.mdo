@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cab70a6b-9438-4165-93e4-616aac29633d">
+  <producedTypes>
+    <refType typeId="5a8d6337-74bd-4853-a72f-97e3f8965894" valueTypeId="659343e0-3746-4f09-805c-5c824f616d46"/>
+    <listType typeId="7c3be2cb-59bc-43d8-82c0-a33aa82b8244" valueTypeId="5144cfcd-2d20-45be-a541-5ad4dd5a73bf"/>
+    <managerType typeId="39270db9-5246-4fc0-92ae-323f8b0ac967" valueTypeId="4a3256bd-ee38-4736-a96a-18392a3143e8"/>
+  </producedTypes>
+  <name>фуПериодичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Frecuencia (FMedia)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d7becf1-2501-4f33-a27d-0363cabbae4c">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Día</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b42694e-25ac-4daa-b3e0-2c25ed5680f6">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Semana</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a8c223d-94d3-4e6f-bf0d-3b51170cbd6c">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Mes</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a61c8f17-7c86-437c-87fe-6ae316beef6c">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Trimestre</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a51fbef-4c51-4384-8bfc-904e9f5a50d8">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Semestre</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="878f45b1-9a12-4444-a566-590a3ef471eb">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Año</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

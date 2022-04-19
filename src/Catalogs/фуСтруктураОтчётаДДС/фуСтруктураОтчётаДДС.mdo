@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e7a26f1-5118-41a7-a540-cc79c5a30237">
+  <producedTypes>
+    <objectType typeId="d6c808ae-0b02-48e8-8bfc-a9b07f2fe0a3" valueTypeId="b70e405c-1b9b-40ac-bf58-1ea1acbd64aa"/>
+    <refType typeId="af21c74b-b255-4267-8668-85519aa8c5bc" valueTypeId="54873266-601a-4216-868c-ee03db66b91c"/>
+    <selectionType typeId="b9b89402-e037-405f-a09b-80d3a81a482d" valueTypeId="2c0439f7-3129-4994-9bf4-1e4636967c7f"/>
+    <listType typeId="e63fbe91-d367-4abd-a83b-ea2b54955aaf" valueTypeId="bc6e86c9-dac2-465d-a1fa-d8f942ed43c9"/>
+    <managerType typeId="18388957-079a-478d-ad8b-fc9c72020102" valueTypeId="4edd86e1-a3f3-42a6-b2bf-b371e327d07b"/>
+  </producedTypes>
+  <name>фуСтруктураОтчётаДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура отчёта ДДС</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Estructura del informe DDS (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуСтруктураОтчётаДДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуСтруктураОтчётаДДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.фуСтруктураОтчётаДДС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.фуСтруктураОтчётаДДС.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="3c88af6c-67e3-41d2-8c6e-89910f949b35">
+    <name>КодСтрокиВОтчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код строки в отчете</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="611d231f-5f2d-4973-bdd5-6f11a903a498">
+    <name>НеУдалятьСтрокуУровняВОтчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не удалять строку уровня в отчете</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No eliminar la fila de nivel en el informe</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e99ee021-8447-4d28-bdb4-d35f35a513c9">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Costo del artículo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e524f5f8-2af3-4d10-bbfc-a41e7b244800">
+    <name>ЭтоГруппаЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа (заголовок)</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Este es el título del grupo</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb485217-c823-4d6b-93a6-b408ea2c53dd">
+    <name>УровеньВложенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень вложенности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d5a2832c-4299-4b1c-95e8-1983241461e3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c4637f4-4ea5-4381-8bc4-bdf886afe02d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

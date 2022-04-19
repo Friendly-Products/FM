@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e120d6b-0072-4ac3-babc-0797f7603515">
+  <name>фуРуководительФинансовойСлужбы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководитель финансовой службы</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Gerente de Servicios Financieros (FMedia)</value>
+  </synonym>
+</mdclass:Role>

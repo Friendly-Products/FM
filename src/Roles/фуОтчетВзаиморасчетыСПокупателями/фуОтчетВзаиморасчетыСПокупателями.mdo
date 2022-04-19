@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81110eb7-e751-4261-923a-7fac5d463805">
+  <name>фуОтчетВзаиморасчетыСПокупателями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет: Взаиморасчеты с покупателями</value>
+  </synonym>
+  <comment>Доступ внешних пользователей для формирования отчета: Взаиморасчеты с покупатели</comment>
+</mdclass:Role>

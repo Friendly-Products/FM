@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a4fcd0-c791-4b24-9175-7cf9a51d51d4">
+  <name>фуКадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.фуКадровыйУчетКлиент</content>
+  <content>CommonModule.фуКадровыйУчетСервер</content>
+  <content>Role.фуВнешнийРекрутерСлужбыПерсонала</content>
+  <content>Role.фуОграниченияПоОкладам</content>
+  <content>Role.фуОтправкаОповещенияОДобавленииНовогоСотрудника</content>
+  <content>Role.фуРуководительСлужбыПерсонала</content>
+  <content>Role.фуРуководительФинансовойСлужбы</content>
+  <content>Role.фуСобственникКомпании</content>
+  <content>Role.фуСотрудникСлужбыПерсонала</content>
+  <content>Catalog.фуДепартамент</content>
+  <content>Catalog.фуДолжности</content>
+  <content>0f71d2ea-0eb8-4bcb-bd67-db02b211996e</content>
+  <content>Catalog.фуОрганизации</content>
+  <content>Catalog.фуОтделы</content>
+  <content>Catalog.фуСотрудники</content>
+  <content>Document.фуКадровоеИзменение</content>
+  <content>Document.фуПриемНаРаботу</content>
+  <content>Document.фуУвольнениеСотрудника</content>
+  <content>InformationRegister.фуКадроваяИсторияСотрудников</content>
+  <content>Catalog.фуГруппы</content>
+  <parentSubsystem>Subsystem.фуСлужебные</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="231b856e-8b08-4f3c-852d-8d1a7f73e491">
+  <name>фуУдалениеНапоминанийПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление напоминаний пользователей</value>
+  </synonym>
+  <methodName>CommonModule.фуРегламентныеЗаданияСерверФинансовыйУчет.УдалитьВсеСообщенияНаСервере</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

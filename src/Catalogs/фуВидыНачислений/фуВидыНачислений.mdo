@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0467e29d-856c-4dc5-a6e3-ef1f0a7d92f7">
+  <producedTypes>
+    <objectType typeId="246c425f-a1d2-4aae-abb7-cbdb07203d5b" valueTypeId="602c496e-c0fe-4e11-8387-f13491484f7e"/>
+    <refType typeId="2591ed28-2fbf-4547-9ec7-dd5b8a05b42b" valueTypeId="69e8620b-6983-45d3-94c7-5420645e3d79"/>
+    <selectionType typeId="8478992a-2bf4-44dd-af2b-f2c57e8ed618" valueTypeId="e950af8c-8bd1-4553-b2f2-c3c8a235771e"/>
+    <listType typeId="48a39e5c-9e91-490b-860c-6deb83b1fc5c" valueTypeId="85376884-b02f-4f86-8777-5adf953a7b0f"/>
+    <managerType typeId="14333245-1685-4c87-bb80-d3d392ed9925" valueTypeId="d6e60759-e379-4f50-bb9b-a2562cd149d9"/>
+  </producedTypes>
+  <name>фуВидыНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды начислений</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Tipos de ingresos (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.фуВидыНачислений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.фуВидыНачислений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="bdafd2eb-7259-4f2b-b556-ce325bcd8b7b">
+      <name>ВыплатаПоТКРФ</name>
+      <description>Выплата по ТК РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000900</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="be3c99f8-1aaa-4a40-bf53-b514fe02b662">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Moneda</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="366e6170-4067-4af7-86cd-8865b61263ec">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Costo del artículo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

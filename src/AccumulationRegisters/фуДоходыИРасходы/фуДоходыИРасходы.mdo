@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db3ba013-f36d-49b4-b21a-5b207b1eb6d4">
+  <producedTypes>
+    <selectionType typeId="d1694b74-616a-45a7-93f5-e7b7e5a82487" valueTypeId="04ef534e-931c-48d8-86e5-308ff4ba2d77"/>
+    <listType typeId="fd428092-7fe0-419a-879b-950a219f8f57" valueTypeId="ca1e342d-4008-440f-94f7-49c76202515d"/>
+    <managerType typeId="12d4c429-46af-446e-96b8-e8826c817c9a" valueTypeId="97c42f96-285c-4df4-beb3-76359d122042"/>
+    <recordSetType typeId="24ef245c-60a4-46f7-948a-871226c832f9" valueTypeId="289ff06a-5df6-4035-bb02-7ce899133d6d"/>
+    <recordKeyType typeId="3faa9161-df9a-4e7f-92d5-59cc0b63c12c" valueTypeId="ceb8e6ae-8f31-401a-a2cd-7188ee55cbe5"/>
+    <recordType typeId="ad21f052-d37b-4f9a-b78e-81d54a4f371a" valueTypeId="bc0183d5-91e5-47c9-a52e-d91270a35268"/>
+  </producedTypes>
+  <name>фуДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Ingresos y gastos</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="31819222-9b74-4111-b458-c632a58bb88f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cantidad Dólares</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="2d214e84-cf57-46f5-843c-93f5616994d5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Contraparte</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуКонтрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9de6415b-cd86-48f1-8a14-a499fb0bee2a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Empleado</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dce0b49a-9dad-4784-ac71-3a1c7eced70c">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Base</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="91dcdffd-b839-4a01-854f-eee4e0034997">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Costo del artículo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2ffb1941-87d7-4edc-83e8-a56986df9135">
+    <name>ВалютаУправленческогоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта управленческого учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

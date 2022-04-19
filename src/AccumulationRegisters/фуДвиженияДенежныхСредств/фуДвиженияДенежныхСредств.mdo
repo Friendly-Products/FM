@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f455a4f-9393-43b9-9327-d2e5532d8ba6">
+  <producedTypes>
+    <selectionType typeId="06b8d448-8732-42eb-8cd3-deeb521e074b" valueTypeId="0fc97523-8d4a-4248-bcbf-31ce5a460be4"/>
+    <listType typeId="72a17bc4-1f9b-41de-bb6e-e74f4481c24a" valueTypeId="1ff8f8f7-05c8-415a-bb09-0ad0e2395a53"/>
+    <managerType typeId="8cd5a7e2-ee20-499d-9aba-a5f1d9150ab9" valueTypeId="fd1cc47d-d093-4d87-9b4d-4d3ad7810f9f"/>
+    <recordSetType typeId="bb428ece-efaa-4d66-ba11-6d39dc59d473" valueTypeId="5353b153-75ec-417f-9894-771edcec6fa7"/>
+    <recordKeyType typeId="4af676d5-53b9-478c-83c9-35d54494b0cc" valueTypeId="606434c4-207d-4c0a-9646-e035acf87b0a"/>
+    <recordType typeId="ee89edd5-c219-48de-a818-71cad30dad62" valueTypeId="9048568d-1bf8-4299-bf42-77350215f4a9"/>
+  </producedTypes>
+  <name>фуДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения денежных средств</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Flujo de efectivo (Fmedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="bc1761ef-e097-44db-a727-b39650666e9c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cantidad dólares</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="40c75249-7061-4d4f-a6d2-862295877b01">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Base</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="2d7e7cc9-8eed-4789-911a-2e6b607d3928">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Costo del artículo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.фуСтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="db8fa94f-a1a8-47a0-a130-fa49600d8215">
+    <name>ВалютаУправленческогоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта управленческого учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

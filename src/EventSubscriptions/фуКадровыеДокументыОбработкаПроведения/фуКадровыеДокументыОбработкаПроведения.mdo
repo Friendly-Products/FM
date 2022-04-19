@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a0d266a-d7fa-4d74-aff4-b5c14fba830c">
+  <name>фуКадровыеДокументыОбработкаПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы обработка проведения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.фуКадровоеИзменение</types>
+    <types>DocumentObject.фуУвольнениеСотрудника</types>
+    <types>DocumentObject.фуПриемНаРаботу</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.фуОбработчикиСобытийСервер.КадровыеДокументы_ОбработкаПроведения</handler>
+</mdclass:EventSubscription>

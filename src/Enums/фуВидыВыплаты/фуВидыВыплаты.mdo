@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="112c06be-1319-49b1-b352-e892ce74d8ee">
+  <producedTypes>
+    <refType typeId="5019fcea-24e1-44d9-9103-c80f07880038" valueTypeId="5d0fd150-b316-43c3-9382-ea7dc9ae1f4f"/>
+    <listType typeId="57413c7f-2be4-446c-921a-0e8976fa70f7" valueTypeId="a3af45a9-ab74-4d2d-8e7b-be9fbb058d22"/>
+    <managerType typeId="cf7de341-7ebf-4c60-b70d-f6e0104bea0b" valueTypeId="c8738f19-adde-48e3-85f0-dc4cddf09f46"/>
+  </producedTypes>
+  <name>фуВидыВыплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды выплаты</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Tipos de pago (FMedia)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c000b696-801f-4d7b-b4f2-cc754698d1bf">
+    <name>ОсновнойСпособВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной способ выплаты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Método principal de pago</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd2f63b3-2c8e-4a90-85b7-94aff1c683d5">
+    <name>ДополнительныйСпособВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный способ выплаты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Método de pago adicional</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

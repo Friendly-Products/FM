@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c05ec2a-bfe2-4022-bd1a-84fdad18b167">
+  <producedTypes>
+    <objectType typeId="9cfe2ff7-40b6-4b62-9f96-354165d3fd65" valueTypeId="3d7b5282-d2c9-4a36-a9ab-8caf8ced3928"/>
+    <refType typeId="71c51a2e-72c0-4f71-8adc-d048c5a7ef7a" valueTypeId="6208a0d0-01dd-4598-885e-8c5504af138d"/>
+    <selectionType typeId="73f55ff6-91b9-4791-baaf-97cf031e57b5" valueTypeId="ad25a4d0-255d-4ef6-ae5c-942ed8f56832"/>
+    <listType typeId="19757592-f882-49a0-8d91-59d7b99580ff" valueTypeId="4c35c716-2483-42c0-966c-5b3d1464b899"/>
+    <managerType typeId="06e2d1fa-4a26-4593-9d9d-5bad0e17bd05" valueTypeId="4393eca0-e8f5-488d-bb9f-98f0f82af95c"/>
+  </producedTypes>
+  <name>фуВводНачальныхОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод начальных остатков</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Introducción de residuos iniciales (FMedia)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.фуВводНачальныхОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.фуВводНачальныхОстатков.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.фуВводНачальныхОстатков.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.фуОстаткиНаРасчетныхСчетах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4be79a9d-8562-48d5-ba97-649c9e3e18b1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Comentario</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cead861-8242-457d-b12e-7ec98133e1a3">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Responsable</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b2de7226-7024-49a9-bdc7-8fd95bddd953">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d27d407-4f5d-482b-b867-52db8c73cdd3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="63b26906-ca24-48b5-b0bd-3d2f479df93e">
+    <producedTypes>
+      <objectType typeId="14421a45-f245-4c31-b3f0-b8b6f407537d" valueTypeId="45427e0a-392a-4c11-ab2d-7639c971af37"/>
+      <rowType typeId="134bce31-7ff7-439c-8be4-e09c555d5a8e" valueTypeId="04418b80-0b8d-447d-a089-641355ea5989"/>
+    </producedTypes>
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Pago</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f5fdd799-eb78-4a9c-b5f9-4e4da0e411bf">
+      <name>РасчетныйСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расчетный счет</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Cuenta de cheques</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.фуРасчетныеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="917cfbf7-f13b-4d0b-a77f-e4eb68ebd18a">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Monto</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

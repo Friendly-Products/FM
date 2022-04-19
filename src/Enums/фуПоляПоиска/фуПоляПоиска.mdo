@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cea0576-af82-485f-9ea3-115aeae0eac0">
+  <producedTypes>
+    <refType typeId="22e8f248-3bc9-4b8e-90d2-2fc38ea99dc2" valueTypeId="f3ef7cc7-f660-4b92-ba86-10e11d3452d6"/>
+    <listType typeId="fa6a505f-7728-4f4f-90e1-6856f6861f3c" valueTypeId="3b67e911-624d-4351-9b08-c8bbfc98ec04"/>
+    <managerType typeId="77d83475-ae47-4f02-8e25-5d90a46228dd" valueTypeId="b6e9ab9d-dee7-4b60-86b5-d394cddd12a0"/>
+  </producedTypes>
+  <name>фуПоляПоиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля поиска в банковских выписках</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Campos de búsqueda en extractos bancarios (FMedia)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="73a6f8f1-126f-4de0-9149-5f107c69b2e4">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Comentario</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69c04b2f-84c5-4ec6-aa85-c00f52c4d421">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Receptor</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
