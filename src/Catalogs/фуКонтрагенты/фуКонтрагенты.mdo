@@ -60,6 +60,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f7cb4aad-55b9-4e79-89a7-5e94379821b7">
+    <name>ИДКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID Контрагента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="34361fa4-facc-4e5a-9ded-6c1ed52d6f5a">
     <name>ФормаЭлемента</name>
     <synonym>
